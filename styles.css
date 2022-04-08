@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #c2c2c2;
+    /* Always is on the main axis */
+    /* justify-content: space-between; */
+    /* Always on the cross axis */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+}
+
+.item {
+    flex: 1;
+    height: 100px;
+    background: #254de4;
+    color: #fff;
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
